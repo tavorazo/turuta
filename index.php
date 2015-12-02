@@ -147,62 +147,7 @@
                     </div>
                 </div>
 
-                <div id="team" class="owl-carousel owl-theme row" style=" width: 75% !important;">
-                    <!--div class="item">
-                        <div class="thumbnail">
-                            <img src="img/team/01.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Jenn Gwapa</h3>
-                                <p>CEO / Founder</p>
-                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/team/02.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Jenn Gwapa</h3>
-                                <p>CEO / Founder</p>
-                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/team/03.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Jenn Gwapa</h3>
-                                <p>CEO / Founder</p>
-                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/team/04.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Jenn Gwapa</h3>
-                                <p>CEO / Founder</p>
-                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/team/04.jpg" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Jenn Gwapa</h3>
-                                <p>CEO / Founder</p>
-                                <p>Do not seek to change what has come before. Seek to create that which has not.</p>
-                            </div>
-                        </div>
-                    </div-->
-
+                <div id="team" class="owl-carousel owl-theme row" >
                     <div class="item">
                         <div class="thumbnail">
                             <img src="https://avatars3.githubusercontent.com/u/9580544?v=3&s=460" alt="..." class="img-circle team-img">
@@ -251,7 +196,9 @@
                     <hr>
                 </div>
                 <div class="clearfix"></div>
-                <small><em>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</em></small>
+                <small><em>Cuando sigues nuestra ruta recomendada recibes descuentos y promociones en los destinos que te sugerimos.
+                <br>
+                Puedes destacar los lugares que te gustarón para ayudar a otras personas a tener increibles itinerarios.</em></small>
             </div>
             <div class="space"></div>
             <div class="row">
@@ -552,7 +499,7 @@
 
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <div id="testimonial" class="owl-carousel owl-theme">
+                        <div id="testimonial" class="owl-carousel owl-theme" style="width:100% !important">
                             <div class="item">
                                 <h5>Viaje por primera vez a San Miguel de Allende y con esta app pude conocer lugares asombrosos y disfrutar de la gastronomia de mi gusto..</h5>
                                 <p><strong>Alicia Zambrano</strong>, Guadalajara Jalisco.</p>

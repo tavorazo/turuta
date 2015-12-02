@@ -21,4 +21,6 @@
 #right h2{ text-align: center; padding-left: 28px; font-size: 16px; }
 #p-right{ margin:0; padding:0; float:right; width: 209px;  text-align: center; font-size: 12px; margin-top: 5px;}
 
-.owl-carousel .owl-wrapper-outer{ width: 100% !important; }
+#team{ width: 75% !important }
+em{ zoom:120%; }
+#testimonial .owl-wrapper-outer{ width: 100% !important}
