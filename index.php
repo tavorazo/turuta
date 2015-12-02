@@ -198,7 +198,7 @@
                 <div class="clearfix"></div>
                 <small><em>Cuando sigues nuestra ruta recomendada recibes descuentos y promociones en los destinos que te sugerimos.
                 <br>
-                Puedes destacar los lugares que te gustarón para ayudar a otras personas a tener increibles itinerarios.</em></small>
+                Puedes destacar los lugares que te gustaron para ayudar a otras personas a tener increíbles itinerarios.</em></small>
             </div>
             <div class="space"></div>
             <div class="row">
@@ -277,8 +277,10 @@
                 </div>
             </div>
         </div>
+    <!-- Maps Section
+    ==========================================-->
+        <?php include("googleapi.html"); ?> 
     </div>
-
     <!-- Clients Section
     ==========================================-->
     <div id="tf-clients" class="text-center">
@@ -307,12 +309,6 @@
                     <div class="item">
                         <img src="img/client/05.png">
                     </div>
-                    <div class="item">
-                        <img src="img/client/06.png">
-                    </div>
-                    <div class="item">
-                        <img src="img/client/07.png">
-                    </div>
                 </div>
 
             </div>
@@ -329,7 +325,7 @@
                     <hr>
                 </div>
                 <div class="clearfix"></div>
-                <small><em>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</em></small>
+                <small><em>Las mejores ofertas y promociones de cualquier parte de Guanajuato.</em></small>
             </div>
             <div class="space"></div>
 
@@ -339,11 +335,11 @@
                     <li class="pull-left"><h4>Filter by Type:</h4></li>
                     <li class="pull-right">
                         <ol class="type">
-                            <li><a href="#" data-filter="*" class="active">All</a></li>
-                            <li><a href="#" data-filter=".web">Web Design</a></li>
-                            <li><a href="#" data-filter=".photography">Photography</a></li>
-                            <li><a href="#" data-filter=".app" >Mobile App</a></li>
-                            <li><a href="#" data-filter=".branding" >Branding</a></li>
+                            <li><a href="#" data-filter="*" class="active">Todo</a></li>
+                            <li><a href="#" data-filter=".web">Recreativo</a></li>
+                            <!--li><a href="#" data-filter=".photography">Ruinas</a></li-->
+                            <li><a href="#" data-filter=".museo" >Museos</a></li>
+                            <li><a href="#" data-filter=".branding" >Restaurant</a></li>
                         </ol>
                     </li>
                 </ul>
@@ -357,44 +353,28 @@
                         <div class="hover-bg">
                             <a href="#">
                                 <div class="hover-text">
-                                    <h4>Logo Design</h4>
+                                    <h4>Restaurant campesino</h4>
                                     <small>Branding</small>
                                     <div class="clearfix"></div>
                                     <i class="fa fa-plus"></i>
                                 </div>
-                                <img src="img/portfolio/01.jpg" class="img-responsive" alt="...">
+                                <img src="img/promos/cupon1.jpg" class="img-responsive" alt="...">
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-sm-6 col-md-3 col-lg-3 photography app">
+                <div class="col-sm-6 col-md-3 col-lg-3 photography museo">
                     <div class="portfolio-item">
                         <div class="hover-bg">
                             <a href="#">
                                 <div class="hover-text">
-                                    <h4>Logo Design</h4>
+                                    <h4>Museo Gto</h4>
                                     <small>Branding</small>
                                     <div class="clearfix"></div>
                                     <i class="fa fa-plus"></i>
                                 </div>
-                                <img src="img/portfolio/02.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 branding">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <small>Branding</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/03.jpg" class="img-responsive" alt="...">
+                                <img src="img/promos/cupon3.jpg" class="img-responsive" alt="...">
                             </a>
                         </div>
                     </div>
@@ -405,12 +385,76 @@
                         <div class="hover-bg">
                             <a href="#">
                                 <div class="hover-text">
+                                    <h4>Hamburgesas al carbón</h4>
+                                    <small>Branding</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="img/promos/cupon2.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-3 branding">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#">
+                                <div class="hover-text">
+                                    <h4>Hotel Aldea</h4>
+                                    <small>Branding</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="img/promos/cupon4.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-3 web">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#">
+                                <div class="hover-text">
+                                    <h4>SPA Natura</h4>
+                                    <small>Branding</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="img/promos/cupon5.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-3 museo">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#">
+                                <div class="hover-text">
+                                    <h4>Momias Gto</h4>
+                                    <small>Branding</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="img/promos/cupon6.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--div class="col-sm-6 col-md-3 col-lg-3 photography web">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="#">
+                                <div class="hover-text">
                                     <h4>Logo Design</h4>
                                     <small>Branding</small>
                                     <div class="clearfix"></div>
                                     <i class="fa fa-plus"></i>
                                 </div>
-                                <img src="img/portfolio/04.jpg" class="img-responsive" alt="...">
+                                <img src="img/promos/cupon7.jpg" class="img-responsive" alt="...">
                             </a>
                         </div>
                     </div>
@@ -426,59 +470,11 @@
                                     <div class="clearfix"></div>
                                     <i class="fa fa-plus"></i>
                                 </div>
-                                <img src="img/portfolio/05.jpg" class="img-responsive" alt="...">
+                                <img src="img/promos/8.jpg" class="img-responsive" alt="...">
                             </a>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 app">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <small>Branding</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/06.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 photography web">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <small>Branding</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/07.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 web">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <small>Branding</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/08.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                </div-->
 
             </div>
         </div>
@@ -499,7 +495,7 @@
 
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <div id="testimonial" class="owl-carousel owl-theme" style="width:100% !important">
+                        <div id="testimonial" class="owl-carousel owl-theme" >
                             <div class="item">
                                 <h5>Viaje por primera vez a San Miguel de Allende y con esta app pude conocer lugares asombrosos y disfrutar de la gastronomia de mi gusto..</h5>
                                 <p><strong>Alicia Zambrano</strong>, Guadalajara Jalisco.</p>

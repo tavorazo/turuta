@@ -180,7 +180,8 @@ ul.about-list li span{
 
 /* Team Section */
 #tf-team{
-	background: url(../img/03.jpg);
+	background: url(http://www.icomos.org.mx/2012/images/guanajuato/Guanajuato%20Subterranea.JPG);
+	/*background: url(../img/03.jpg);*/
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -306,7 +307,8 @@ img.img-circle.team-img {
 
 /* Clients Section */
 #tf-clients{
-	background: url(../img/04.jpg);
+	background: url(http://www.grupotravel.com/gestor_web/contenido/img/546b8c3e39820.jpg);
+	/*background: url(../img/04.jpg);*/
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -444,7 +446,8 @@ ol.type li a.active { font-weight: 700; }
 }
 /* Testimonials Section */
 #tf-testimonials{
-	background: url(../img/05.jpg);
+	background: url(http://previews.123rf.com/images/dolgachov/dolgachov1410/dolgachov141002340/32777369-concepto-de-amistad-las-vacaciones-de-verano-d-as-de-fiesta-fiesta-y-la-gente-grupo-de-amigos-sonrie-Foto-de-archivo.jpg);
+	/*background: url(../img/05.jpg);*/
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
