@@ -1,0 +1,171 @@
+a{
+	text-decoration: none;
+}
+.login{
+	text-align: center;
+	}
+.fb, .gp{
+	font-size: 1.7rem;
+	display: block;
+	width: 100%;
+	color: white;
+	padding: 1rem;
+	margin:0rem 0rem 1.3rem 0rem;
+}
+.fb{
+	background: #3b5998;
+}
+.gp{
+	background: #d34836;
+}
+.gp{
+	display: block;
+}
+.center{
+	text-align: center;
+}
+.logo{
+	color: white;
+	text-align: center;
+}
+main{
+	position: absolute;
+	bottom: 0rem;
+	width: 100%;
+}
+body{
+	background: #2c3e50;
+}
+footer{
+	margin-top: 1rem;
+	color:#f1c40f;
+	padding: 2rem;
+	font-size: 1.3rem;
+	text-align: center;
+	background: #34495e;
+}
+input[type="text"]{
+	display: block;
+	font-size: 1.6rem;
+	width: 100%;
+	padding: 1rem;	
+	margin-bottom: 1.3rem;
+}
+.tile{
+	display: inline-block;
+	vertical-align: middle;
+	padding: 3rem 3rem;
+	color: #ecf0f1;
+	overflow: hidden;
+	text-decoration: none;
+	transition:all 1s;
+}
+a:hover{
+	text-decoration: none;
+}
+.green{
+	background: #1abc9c;
+}
+.emerald{
+	background: #2ecc71;
+}
+.blue{
+	background: #3498db;
+}
+.purple{
+	background: #9b59b6;
+}
+.yellow{
+	background: #f1c40f;
+
+}
+.orange{
+	background: #e67e22;
+}
+.red{
+	background: #e74c3c;
+}
+.white{
+	background: #ecf0f1;
+}
+.gray{
+	background: #95a5a6;
+}
+#Next{
+	display: block;
+	border-radius: 50%;
+	padding: 2rem;
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	color: white;
+	transition: all 1s;
+}
+#Next a{
+	color: white;
+}
+#Next:hover{
+	background: #e67e22;
+
+}
+.tile:hover{
+	background: #34495e;
+}
+.card{
+	margin: 1rem;
+	color: white;
+	border-style: none;
+	border-radius: 8px;
+	border-width: 1px;
+}
+.card-title{
+	background: #3498db;
+	text-transform: uppercase;
+	padding: .5rem;
+}
+.card-promo{
+	background: #2ecc71;
+	padding: .7rem;
+}
+.card-content{
+	color: black;
+	text-align: justify;
+	overflow: hidden;
+}
+.card-image{
+	float: left;
+	margin-right: 5px;
+}
+.card-opinion{
+	display: block;
+
+	margin:1rem;
+	background: #95a5a6;
+	overflow: hidden;
+}
+.card-opinion-image{
+	width: 100%;
+}
+.No{
+	display: inline-block;
+	background: #e74c3c;
+	border-radius: 50%;
+	color: white;
+	padding: 2rem;
+	float: right;
+	margin:.5rem;
+}
+.Yes{
+	display: inline-block;
+	background: #2ecc71;
+	border-radius: 50%;
+	color: white;
+	padding: 2rem;
+	float: left;
+	margin:.5rem;
+}
+.card-opinion p {
+	color: white;
+	font-size: 2rem;
+}
+

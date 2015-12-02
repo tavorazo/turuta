@@ -13,12 +13,12 @@
 #left, #right{ width: 35%; min-height:200px; float:left;}
 #phone{  width: 30%; min-height:400px; float:left;}
 #phone img{ width: 150%; margin-left:-25% }
-#left img { width: 50px; height: 50px; border-bottom: 2px #fcac45 solid;  float:right; margin-right: 70px; }
-#left h2{ text-align: center;  font-size: 16px;}
+#left img { width: 50px; height: 50px; border-bottom: 2px #fcac45 solid;  float:right; margin-right: 90px; }
+#left h2{ width:50%; text-align: center;  font-size: 16px;}
 #p-left{margin:0; padding:0; position:absolute; margin-top: 5px; width: 209px;  text-align: center; padding-right: 10px; font-size: 12px;}
 
 #right img{ width: 50px; height: 50px; float:left;border-bottom: 2px #fcac45 solid;  margin-left: 70px; }
-#right h2{ text-align: center; padding-left: 28px; font-size: 16px; }
+#right h2{ width:50%; text-align: center; float: right; font-size: 16px; }
 #p-right{ margin:0; padding:0; float:right; width: 209px;  text-align: center; font-size: 12px; margin-top: 5px;}
 
 #team{ width: 75% !important }

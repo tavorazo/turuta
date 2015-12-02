@@ -83,7 +83,7 @@
         <div class="overlay">
             <div class="content">
                 <h1>Disfruta <strong><span class="color">Guanajuato</span></strong></h1>
-                <p class="lead">Una <strong>ruta personalizada</strong> llena de <strong> aventura.</strong></p>
+                <p class="lead">Tu <strong>ruta personalizada</strong> llena de <strong> aventura.</strong></p>
                 <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
             </div>
         </div>

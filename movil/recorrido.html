@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="bootstrap.css">
+
+<!-- Optional theme -->
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+-->
+<script src="http://maps.google.com/maps/api/js?sensor=false" 
+          type="text/javascript"></script>
+	<title>Tu Ruta</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class="white">
+	<section class="logo">
+			<img src="arrow.png" height=100 alt="">
+	</section>
+	<section>
+			<section class="login container center">
+				<div class="card">
+					<div class="card-title">
+						<h4>Tu ruta ideal</h4>
+					</div>
+					<div id="map" style="width: 100%; height: 330px;"></div>
+					<script type="text/javascript">
+					    var locations = [
+					      ['PaseoMadero', 21.0114332,-101.2490824, 1],
+					      ['CafeTal', 21.0125031,-101.2513286, 2],
+					      ['TeatroJuarez', 21.0155327,-101.2527985, 3],
+					      ['Universidad', 21.0171051,-101.2536514, 4],
+					      ['MercadoHidalgo', 21.0178362,-101.2579591, 5],
+					      ['MinaNopal', 21.0189217,-101.2574438, 6]
+					    ];
+
+					    var map = new google.maps.Map(document.getElementById('map'), {
+					      zoom: 15,
+					      center: new google.maps.LatLng(21.0181433,-101.2539827),//21.0215484,-101.2630378),
+					      mapTypeId: google.maps.MapTypeId.ROADMAP
+					    });
+
+					    var infowindow = new google.maps.InfoWindow();
+
+					    var marker, i;
+
+					    for (i = 0; i < locations.length; i++) {  
+					      marker = new google.maps.Marker({
+					        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+					        map: map
+					      });
+
+					      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+					        return function() {
+					          infowindow.setContent(locations[i][0]);
+					          infowindow.open(map, marker);
+					        }
+					      })(marker, i));
+					    }
+					  </script>
+					  <div class="card-promo">
+					  	<a href="promos.html">Iniciar Recorrido</a>
+					  </div>
+				</div>
+
+
+			</section>
+
+		<footer>
+			Tu Ruta 2015 ©
+		</footer>
+	</section>
+	<section id="Next" class="red"><a href="#"><-</a></section>
+</body>
+<script src="jquery-2.1.4.min.js"></script>
+</html>
